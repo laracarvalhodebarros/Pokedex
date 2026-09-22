@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pokédex</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🔴 Pokédex</h1>
+        <p>Explore o mundo dos Pokémon!</p>
+    </header>
+
+    <main>
+
+        <section class="pesquisa">
+            <input
+                type="text"
+                id="pokemonInput"
+                placeholder="Digite o nome ou número do Pokémon"
+            >
+
+            <button id="buscarBtn">Buscar</button>
+        </section>
+
+        <p id="mensagem"></p>
+
+        <section class="pokedex">
+
+            <div class="pokemon-imagem">
+                <span id="numeroPokemon">#001</span>
+
+                <img
+                    id="pokemonImagem"
+                    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+                    alt="Imagem do Pokémon"
+                >
+            </div>
+
+            <div class="pokemon-info">
+
+                <h2 id="pokemonNome">Bulbasaur</h2>
+
+                <div class="tipos" id="pokemonTipos">
+                    <span class="tipo">grass</span>
+                    <span class="tipo">poison</span>
+                </div>
+
+                <div class="informacoes">
+
+                    <div class="informacao">
+                        <strong>Altura</strong>
+                        <span id="pokemonAltura">0,7 m</span>
+                    </div>
+
+                    <div class="informacao">
+                        <strong>Peso</strong>
+                        <span id="pokemonPeso">6,9 kg</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="botoes">
+
+            <button id="anteriorBtn">
+                ← Anterior
+            </button>
+
+            <button id="aleatorioBtn">
+                🎲 Aleatório
+            </button>
+
+            <button id="proximoBtn">
+                Próximo →
+            </button>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Projeto Pokédex - HTML, CSS, JavaScript e PokeAPI</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
