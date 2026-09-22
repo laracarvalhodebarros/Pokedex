@@ -65,7 +65,7 @@ main {
     transform: scale(1.03);
 }
 
-/* MENSAGEM */
+
 
 #mensagem {
     text-align: center;
@@ -198,7 +198,7 @@ footer {
     font-size: 14px;
 }
 
-/* RESPONSIVIDADE */
+
 
 @media (max-width: 600px) {
 
