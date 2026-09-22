@@ -44,7 +44,7 @@ async function buscarPokemon(pokemon) {
 
     } catch (erro) {
 
-        mensagem.textContent = "❌ Pokémon não encontrado.";
+        mensagem.textContent = " Pokémon não encontrado.";
 
     }
 }
@@ -136,9 +136,7 @@ anteriorBtn.addEventListener("click", () => {
 });
 
 
-// ==============================
-// PRÓXIMO POKÉMON
-// ==============================
+
 
 proximoBtn.addEventListener("click", () => {
 
@@ -153,9 +151,7 @@ proximoBtn.addEventListener("click", () => {
 });
 
 
-// ==============================
-// POKÉMON ALEATÓRIO
-// ==============================
+
 
 aleatorioBtn.addEventListener("click", () => {
 
@@ -167,8 +163,6 @@ aleatorioBtn.addEventListener("click", () => {
 });
 
 
-// ==============================
-// CARREGAR BULBASAUR AO ABRIR
-// ==============================
+
 
 buscarPokemon(1);
